@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<RelativeLayout
+		android:id="@+id/item"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginLeft="10dp"
+		android:layout_marginRight="10dp"
+		android:descendantFocusability="afterDescendants"
+		android:orientation="horizontal"
+
+
+		>
+
+		<com.joooonho.SelectableRoundedImageView
+			xmlns:app="http://schemas.android.com/apk/res-auto"
+			android:id="@+id/post_image"
+			android:layout_width="match_parent"
+			android:layout_height="220dp"
+
+			android:layout_alignParentLeft="true"
+			android:scaleType="centerCrop"
+			android:src="@drawable/article"
+			app:sriv_border_color="#24008fea"
+			app:sriv_border_width="0dip"
+			app:sriv_left_bottom_corner_radius="0dip"
+			app:sriv_left_top_corner_radius="2dip"
+			app:sriv_right_bottom_corner_radius="0dip"
+			app:sriv_right_top_corner_radius="2dip"
+			/>
+
+		<RelativeLayout
+			android:id="@+id/relative"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/post_image"
+			android:background="@drawable/image_bg"
+
+			>
+
+			<TextView
+				android:id="@+id/post_title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:layout_marginBottom="8dp"
+				android:layout_marginLeft="16dp"
+				android:layout_marginRight="16dp"
+				android:layout_marginTop="16dp"
+				android:textColor="@android:color/black"
+				android:textSize="24sp"
+				android:textStyle="bold"
+
+				/>
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_below="@+id/post_title"
+				android:layout_marginBottom="8dp"
+				android:layout_marginRight="8dp"
+				android:orientation="horizontal"
+
+				>
+
+				<Button
+					android:id="@+id/sharebtn"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:background="@android:color/transparent"
+					android:text="share"
+
+					/>
+				<TextView
+					android:id="@+id/post_date"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:layout_marginTop="15dp"
+					android:textColor="@android:color/darker_gray"
+					android:textSize="14sp"
+
+
+					/>
+
+
+			</RelativeLayout>
+
+
+		</RelativeLayout>
+
+
+
+
+	</RelativeLayout>
+
+
+
+</FrameLayout>

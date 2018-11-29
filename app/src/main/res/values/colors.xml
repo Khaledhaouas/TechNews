@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#d32f2f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="black_overlay">#66000000</color>
+
+    <color name="statusBarColor1">#d32f2f</color>
+    <color name="statusBarColor2">#7B1FA2</color>
+    <color name="statusBarColor3">#1976D2</color>
+    <color name="statusBarColor4">#00E5FF</color>
+    <color name="statusBarColor5">#64DD17</color>
+    <color name="statusBarColor6">#448AFF</color>
+    <color name="statusBarColor7">#78909C</color>
+    <color name="statusBarColor8">#2E7D32</color>
+    <color name="statusBarColor9">#FF9800</color>
+</resources>
